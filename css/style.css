@@ -134,8 +134,47 @@ font-size:20px;
 
 
 
-/* Header Part Start */
-/* Header Part End */
+/* Product Part Start */
+.review{
+  display:flex;
+  justify-content: space-between;
+}
+.review h6,.review span{
+  line-height:37px;
+}
+.star i{
+  color:orange
+}
+.hoverIfect a{
+  padding:7px 20px;
+  background-color: cadetblue;
+  color:white;
+  border-radius: 20px;
+}
+.hoverIfect{
+  display:flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  opacity:0;
+  visibility: hidden;
+  transition:all linear .4s;
+}
+.productInfo:hover .hoverIfect{
+  opacity: 1;
+ visibility: visible;
+}
+.productInfo .toma{
+  display:none;
+}
+
+
+.productInfo:hover .tom{
+  display:none;
+}
+.productInfo:hover .toma{
+  display:block;
+}
+/* Product Part End */
 
 
 
