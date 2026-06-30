@@ -180,8 +180,19 @@ font-size:20px;
 
 
 
-/* Header Part Start */
-/* Header Part End */
+/* Count Part Start */
+#counterPart{
+  padding:200px 0;
+  margin-top:100px;
+
+}
+#counterPart{
+  background:url(../images/all\ photos55.webp);
+  background-repeat: no-repeat;
+  background-position:  center;
+  background-size: cover;
+}
+/* Count Part End */
 
 
 
