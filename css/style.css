@@ -186,11 +186,30 @@ font-size:20px;
   margin-top:100px;
 
 }
+
 #counterPart{
   background:url(../images/all\ photos55.webp);
   background-repeat: no-repeat;
   background-position:  center;
   background-size: cover;
+}
+.boxes{
+  display:flex;
+  justify-content: space-between;
+    column-gap: 20px;
+  
+
+}
+.box{
+  background-color: cadetblue;
+   width:25%;
+   height:50px;
+  padding-top:10px;
+  padding-left:10px;
+  padding-bottom:70px;
+  border-radius:10px;
+  color:white;
+  text-align: center;
 }
 /* Count Part End */
 
